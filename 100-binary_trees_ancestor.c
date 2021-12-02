@@ -78,7 +78,7 @@ binary_tree_t *ancestors_tracker(const binary_tree_t *biggest,
 	const binary_tree_t *tmp_biggest = biggest;
 	const binary_tree_t *tmp_smallest = smallest;
 
-	depth_biggest = binary_tree_depth(biggest); /*Measure Depth*/
+	depth_biggest = binary_tree_depth(biggest); /*Measure Dept*/
 	depth_smallest = binary_tree_depth(smallest); /*Measure Depth*/
 	depth_balance = depth_biggest - depth_smallest;
 
